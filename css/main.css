@@ -61,10 +61,17 @@ span{
 }
 .link{
 	color: #0000ff;
-	font-weight: 2rem;
+	
 }
 .link:hover{
 	text-decoration-color: red;
+}
+.jt{
+	text-align: justify;
+	text-shadow: 1px 1px #f06c2e;
+}
+.center{
+	text-align: center;
 }
 .wrapper{
 	width: 1200px;
@@ -87,6 +94,7 @@ span{
 }
 .text-gif{
 	flex-basis: 60%;
+
 }
 
 .home{
@@ -269,14 +277,23 @@ footer {
 	width: 100%;
 	display: flex;
 	flex-flow: row nowrap;
-	justify-content: space-around;
+	justify-content: ;
 }
 .footer-text{
 	flex-basis: 49%;
 }
 .footer-text p{
 	text-align: center;
+	text-transform: uppercase;
 }
-
-
+.fa-facebook-square{
+	color: #3b5998;
+	font-size: 3rem;
+	padding: 0 .2rem;
+}
+.fa-instagram{
+	color: #3f729b;
+	font-size: 3rem;
+	padding: 0 .2rem;
+}
 
