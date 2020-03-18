@@ -296,4 +296,6 @@ footer {
 	font-size: 3rem;
 	padding: 0 .2rem;
 }
-
+.fa-facebook-square:hover, .fa-instagram:hover{
+	color: gray;
+}
