@@ -182,16 +182,18 @@ li a{
 	width: 90%;
 	min-height: 500px;
 	background-color: #ecf7fc;
-	margin: auto;
-	margin-top: 1rem;	
+	margin-top: 1rem;
+	/*margin-left: .5rem;	*/
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
 }
+
 .table-program{
 	flex-basis: 59%;
 	min-height: 100px;
 	background: #ecf7fc;
+	padding: 1rem;
 }
 .table-speakers{
 	flex-basis: 39%;
@@ -287,13 +289,13 @@ footer {
 	text-transform: uppercase;
 }
 .fa-facebook-square{
-	color: #3b5998;
-	font-size: 3rem;
+	color: #000;
+	font-size: 1.5rem;
 	padding: 0 .2rem;
 }
 .fa-instagram{
-	color: #3f729b;
-	font-size: 3rem;
+	color: #000;
+	font-size: 1.5rem;
 	padding: 0 .2rem;
 }
 .fa-facebook-square:hover, .fa-instagram:hover{
