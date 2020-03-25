@@ -273,13 +273,17 @@ footer {
 .footer-content{
 	width: 100%;
 	text-align: center;
-	
+	color: #000;
+}
+.footer-content h4, .footer-content p{
+	color: #000;
 }
 .footer-content-text{
 	width: 100%;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: ;
+
 }
 .footer-text{
 	flex-basis: 49%;
@@ -287,17 +291,21 @@ footer {
 .footer-text p{
 	text-align: center;
 	text-transform: uppercase;
+	color: #000;
+}
+.footer-text a{
+	text-decoration: none;
+}
+.footer-text p:hover{
+	color: gray;
 }
 .fa-facebook-square{
-	color: #000;
 	font-size: 1.5rem;
 	padding: 0 .2rem;
 }
 .fa-instagram{
-	color: #000;
+	
 	font-size: 1.5rem;
 	padding: 0 .2rem;
 }
-.fa-facebook-square:hover, .fa-instagram:hover{
-	color: gray;
-}
+
